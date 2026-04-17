@@ -325,3 +325,41 @@ let classificacao = idadePessoa < 12 ? "Criança":
 idadePessoa <=17 ? "adolecente":
 idadePessoa <=59 ? "adulto":"idoso";
 console.log(`idade ${idadePessoa}:${classificacao}`)
+
+
+
+// ==================== ATIVIDADES COM OBJETOS ====================
+
+// 51: Crie um objeto pessoa com nome "Ana" e idade 25
+let pessoaAna ={
+    nome : "Ana",
+    idade: 25
+};
+console.log(pessoaAna);
+// 52: Acesse e exiba o nome do objeto {nome: "Carlos", cidade: "São Paulo"}
+let usuarioCarlos ={
+    nome:"Carlos",
+    cidade:"São Paulo"
+}
+console.log(`nome ${usuarioCarlos.nome}`);
+// 53: Adicione a propriedade "curso" ao objeto {nome: "Maria", idade: 20}
+let estudante ={
+    nome:"Maria",
+    idade: 20
+}
+console.log("antes",estudante);
+estudante.curso = "matematica";
+console.log("depois",estudante);
+// 54: Altere a idade do objeto {nome: "João", idade: 18} para 19
+
+// 55: Remova a propriedade "telefone" do objeto {nome: "Pedro", telefone: "99999-9999"}
+
+// 56: Exiba todas as propriedades do objeto {marca: "Nike", tamanho: 42, cor: "preto"}
+
+// 57: Crie um objeto cachorro com nome "Rex" e um método latir que exibe "Au au!"
+
+// 58: Crie um objeto aluno com nome "Lucas" e notas [8, 7, 9]
+
+// 59: Crie um objeto carro com marca "Fiat" e um objeto motor com potencia "1.0"
+
+// 60: Crie um array com 3 objetos de produtos (nome e preço) e exiba todos
