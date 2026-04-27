@@ -355,8 +355,22 @@ console.log("depois",estudante);
 // 55: Remova a propriedade "telefone" do objeto {nome: "Pedro", telefone: "99999-9999"}
 
 // 56: Exiba todas as propriedades do objeto {marca: "Nike", tamanho: 42, cor: "preto"}
+let tenis = {marca: "Nike",
+     tamanho: 42,
+      cor: "preto"
+    }
+    for(let propri in tenis){
+    console.log(`${propri}: ${tenis[propri]}`);
+    }
 
 // 57: Crie um objeto cachorro com nome "Rex" e um método latir que exibe "Au au!"
+let cachorro = {
+    nome:"Rex",
+    latir:function(){
+        console.log("AU AU");
+    }
+}
+cachorro.latir();
 
 // 58: Crie um objeto aluno com nome "Lucas" e notas [8, 7, 9]
 
